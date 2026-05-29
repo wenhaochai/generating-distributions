@@ -79,7 +79,6 @@ Files are stored sequentially such that each JSON entry is followed by its corre
 {key_3}.jpg
 ```
 
-
 ### JSON Format
 Each json includes metadata in the following format:
 
@@ -99,6 +98,46 @@ Each json includes metadata in the following format:
 // Next image record
 ```
 
+## Baselines
+
+The baseline code is located in `baselines/PixelGen/`. Our implementation builds on [PixelGen](https://github.com/Zehong-Ma/PixelGen) by Ma et al.
+
+**Installation**
+```bash
+conda create -n pixgen python=3.10
+conda activate pixgen
+cd baselines/PixelGen
+pip install -r requirements.txt
+```
+
+**Training**
+```bash
+cd baselines/PixelGen
+sbatch sbatch_pretrain_gpic_full_jit.sh
+```
+
+**Sampling**
+```bash
+cd baselines/PixelGen
+sbatch sbatch_sample_wl.sh
+```
+Update `--ckpt_path` in the script to point to your checkpoint.
+
+**Evaluation**
+```bash
+# First install the GPIC evaluation toolkit
+cd gpic_eval
+pip install -e .
+cd ../baselines/PixelGen
+bash benchmark_jit_gpic_full.sh
+```
+Update `PRED_DIRS` and `REF_NPZ` in the script to point to your predictions and reference file.
+
+See `baselines/PixelGen/README.md` for full details on model architecture and configuration.
+
+## GPIC Evaluation Toolkit
+
+The evaluation toolkit is located in `gpic_eval/`.
 
 ## Contact
 - Keshigeyan Chandrasegaran: keshik@cs.stanford.edu
