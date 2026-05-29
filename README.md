@@ -1,5 +1,5 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
-    GPIC: A Giant Permissive Image Corpus for Visual Generation</h1>
+    GPIC: A Giant Permissive Image Corpus</br>for Visual Generation</h1>
 <p align='center' style="text-align:center;font-size:1.25em;">
 <a href="https://keshik6.github.io/" target="_blank" style="text-decoration: none;">Keshigeyan&nbsp;Chandrasegaran</a><sup>*1</sup>,&nbsp;
 <a href="https://kylesargent.github.io/" target="_blank" style="text-decoration: none;">Kyle&nbsp;Sargent</a><sup>*1</sup>,&nbsp;
@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-<img src="https://huggingface.co/datasets/stanford-vision-lab/giant-permissive-image-corpus/resolve/main/figures/gpic_graphics.svg" alt="GPIC Dataset Overview" style="width: 100%; max-width: 3000px;">
+<img src="./assets/gpic_summary.png" alt="GPIC Dataset Overview" style="width: 100%; max-width: 3000px;">
 </p>
 
 
@@ -56,7 +56,7 @@ We hope GPIC supports open, accessible, and reproducible research on large-scale
 
 ## GPIC Statistics
 <p align="center">
-  <img src="https://huggingface.co/datasets/stanford-vision-lab/giant-permissive-image-corpus/resolve/main/figures/gpic_stats.jpeg" alt="GPIC Stats Overview" style="width: 100%; max-width: 3000px;">
+  <img src="./assets/gpic_stats.jpeg" alt="GPIC Stats Overview" style="width: 100%; max-width: 3000px;">
 </p>
 
 ## Dataset Organization
