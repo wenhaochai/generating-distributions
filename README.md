@@ -1,35 +1,25 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">
-    GPIC: A Giant Permissive Image Corpus</br>for Visual Generation</h1>
+    GPIC: A Giant Permissive Image Corpus for Visual Generation</h1>
 <p align='center' style="text-align:center;font-size:1.25em;">
-<a href="https://keshik6.github.io/" target="_blank" style="text-decoration: none;">Keshigeyan&nbsp;Chandrasegaran</a><sup>*1</sup>,&nbsp;
-<a href="https://kylesargent.github.io/" target="_blank" style="text-decoration: none;">Kyle&nbsp;Sargent</a><sup>*1</sup>,&nbsp;
-<a href="https://www.suchiragarwal.com/" target="_blank" style="text-decoration: none;">Suchir&nbsp;Agarwal</a><sup>1</sup>,&nbsp;
-<a href="https://mjang01011.github.io/portfolio/" target="_blank" style="text-decoration: none;">Michael&nbsp;Jang</a><sup>1</sup>,&nbsp;</br>
-<a href="https://zymrael.github.io/" target="_blank" style="text-decoration: none;">Michael&nbsp;Poli</a><sup>1,2</sup>,&nbsp;
-<a href="https://www.niebles.net/" target="_blank" style="text-decoration: none;">Juan&nbsp;Carlos&nbsp;Niebles</a><sup>1,4</sup>,&nbsp;
-<a href="https://cs.stanford.edu/people/jcjohns/" target="_blank" style="text-decoration: none;">Justin&nbsp;Johnson</a><sup>3</sup>,&nbsp;
-<a href="https://jiajunwu.com" target="_blank" style="text-decoration: none;">Jiajun&nbsp;Wu</a><sup>1</sup>,&nbsp;
-<a href="https://profiles.stanford.edu/fei-fei-li" target="_blank" style="text-decoration: none;">Li&nbsp;Fei-Fei</a><sup>1</sup>
-</p>
-
-
-<p align='center' style="text-align:center;font-size:0.95em;color:#555555;margin-top:-8px;">
-* Equal contribution
-</p>
-
-<p align='center' style="text-align:center;font-size:1.05em;margin-top:4px;">
-<sup>1</sup>&nbsp;Stanford University &nbsp;&nbsp;
-<sup>2</sup>&nbsp;Radical Numerics &nbsp;&nbsp;
-<sup>3</sup>&nbsp;University of Michigan &nbsp;&nbsp;
-<sup>4</sup>&nbsp;Salesforce Research
-</p>
-
-<p align='center' style="text-align:center;font-size:1.1em;margin-top:8px;">
-<a href="https://arxiv.org/abs/2605.30341" title="arXiv" style="text-decoration: none;" target="_blank" rel="nofollow">📄 arXiv</a> &nbsp;|&nbsp;
-<a href="https://gpic.stanford.edu" title="Website" style="text-decoration: none;" target="_blank" rel="nofollow">🌎 Website</a> &nbsp;|&nbsp;
-<a href="https://huggingface.co/datasets/stanford-vision-lab/giant-permissive-image-corpus" title="Dataset" target="_blank" rel="nofollow" style="text-decoration: none;">🤗 Dataset</a>
-<a href="https://huggingface.co/stanford-vision-lab/gpic-baselines" title="Models" target="_blank" rel="nofollow" style="text-decoration: none;">🤗 Models</a>
-<a href="https://github.com/keshik6/gpic" title="Models" target="_blank" rel="nofollow" style="text-decoration: none;">🥇 Evaluation toolkit</a>
+    <a href="https://keshik6.github.io/" target="_blank" style="text-decoration: none;">Keshigeyan&nbsp;Chandrasegaran</a><sup>*1</sup>,&nbsp;
+    <a href="https://kylesargent.github.io/" target="_blank" style="text-decoration: none;">Kyle&nbsp;Sargent</a><sup>*1</sup>,&nbsp;
+    <a href="https://www.suchiragarwal.com/" target="_blank" style="text-decoration: none;">Suchir&nbsp;Agarwal</a><sup>1</sup>,&nbsp;
+    <a href="https://mjang01011.github.io/portfolio/" target="_blank" style="text-decoration: none;">Michael&nbsp;Jang</a><sup>1</sup>,&nbsp;<br/>
+    <a href="https://zymrael.github.io/" target="_blank" style="text-decoration: none;">Michael&nbsp;Poli</a><sup>1,2</sup>,&nbsp;
+    <a href="https://www.niebles.net/" target="_blank" style="text-decoration: none;">Juan&nbsp;Carlos&nbsp;Niebles</a><sup>1,4</sup>,&nbsp;
+    <a href="https://cs.stanford.edu/people/jcjohns/" target="_blank" style="text-decoration: none;">Justin&nbsp;Johnson</a><sup>3</sup>,&nbsp;
+    <a href="https://jiajunwu.com" target="_blank" style="text-decoration: none;">Jiajun&nbsp;Wu</a><sup>1</sup>,&nbsp;
+    <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank" style="text-decoration: none;">Li&nbsp;Fei-Fei</a><sup>1</sup><br/>
+<span class="author-block"><sup>1</sup>&nbsp;Stanford University&nbsp;&nbsp;</span>
+<span class="author-block"><sup>2</sup>&nbsp;Radical Numerics&nbsp;&nbsp;</span>
+<span class="author-block"><sup>3</sup>&nbsp;University of Michigan&nbsp;&nbsp;</span>
+<span class="author-block"><sup>4</sup>&nbsp;Salesforce Research&nbsp;&nbsp;</span><br/>
+<sup>*</sup>&nbsp;Equal contribution<br/>
+<a href="https://arxiv.org/abs/2605.30341" title="arXiv" target="_blank" rel="nofollow" style="text-decoration: none;">📄 arXiv</a> |
+<a href="https://gpic.stanford.edu" title="Website" target="_blank" rel="nofollow" style="text-decoration: none;">🌎 Website</a> |
+<a href="https://huggingface.co/datasets/stanford-vision-lab/giant-permissive-image-corpus" title="Dataset" target="_blank" rel="nofollow" style="text-decoration: none;">🤗 Dataset</a> |
+<a href="https://huggingface.co/stanford-vision-lab/gpic-baselines" title="Models" target="_blank" rel="nofollow" style="text-decoration: none;">🤗 Models</a> |
+<a href="https://github.com/keshik6/gpic" title="Evaluation Toolkit" target="_blank" rel="nofollow" style="text-decoration: none;">🥇 Evaluation toolkit</a>
 </p>
 
 <p align="center">
