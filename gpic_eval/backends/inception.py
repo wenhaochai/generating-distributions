@@ -1,7 +1,8 @@
 """TF Inception V3 feature extraction.
 
 All TensorFlow code is isolated in this module.
-NPZ I/O has been moved to utils.py.
+
+Adapted from https://github.com/openai/guided-diffusion/blob/main/evaluations/evaluator.py.
 """
 
 import os
