@@ -1,18 +1,4 @@
-"""gpic_eval — image generation evaluation metrics.
-
-Provides FID, IS, Precision, Recall (TF Inception), and FD-DINOv2
-(PyTorch) from NPZ batches.
-"""
-
-import warnings
-
-# Suppress noisy warnings from third-party code; keep gpic_eval's own.
-# Python checks filters most-recent-first, so "default" for gpic_eval must
-# come AFTER the blanket "ignore" to take priority.
-warnings.filterwarnings("ignore")
-warnings.filterwarnings("default", module=r"gpic_eval\..*")
-
-
+"""gpic-eval — image generation evaluation metrics."""
 
 from .models import ALL_METRICS, DEFAULT_MODELS, FDStatistics, SUPPORTED_MODELS
 from .utils import (
@@ -59,5 +45,4 @@ __all__ = [
     "eval_with_ref_stats",
     # backends
     "build_dinov2",
-    # Inception: from gpic_eval.backends.inception import Evaluator
 ]

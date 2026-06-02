@@ -4,6 +4,3 @@ Re-exports common builder and utility functions for convenience.
 """
 
 from .dino import build_dinov2
-
-# Evaluator is lazy-imported to avoid TF dependency:
-#   from .inception import Evaluator
