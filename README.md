@@ -140,8 +140,17 @@ See `baselines/PixelGen/README.md` for full details on model architecture and co
 The evaluation toolkit is located in `gpic_eval/`.
 
 ## Contact
+
+For issues, feedback, or contributions, please open an issue or submit a pull request.
+
 - Keshigeyan Chandrasegaran: keshik@cs.stanford.edu
 - Kyle Sargent: ksarge@cs.stanford.edu
+
+### Image Removal Requests
+
+If you believe a specific GPIC image should be removed due to copyright, privacy, licensing, or safety concerns, please submit an image removal request using this form: [Image Removal Request](https://docs.google.com/forms/d/e/1FAIpQLSdd3un-uGf9z0gVNUtBFMCki-B3nKqmnEVvQRL_8QQh8J6uFw/viewform?usp=header).
+
+Please include the relevant GPIC image key(s). Requests are reviewed case by case by the dataset maintainers.
 
 
 ## Citation
